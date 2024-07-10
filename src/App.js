@@ -7,9 +7,10 @@ const App = () => {
   
   return (
     <div className="App">
-      <Components />  
+      test
+      {/* <Components />  
       <ScrolToTop/>
-      <Loader/>  
+      <Loader/>   */}
     </div>
   );
 }
