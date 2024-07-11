@@ -3,6 +3,7 @@ import CountUp from 'react-countup';
 import { NavLink } from 'react-router-dom';
 import ReactPlayer from 'react-player';
 
+import video from '../../video/avshinvideo.mp4'
 var img1 = require('./../../images/video-bg.jpg');
 
 class OurValue extends React.Component {
@@ -131,7 +132,7 @@ class OurValue extends React.Component {
                 <div className="modal fade" id="myModal2" role="dialog">
                     <div className="modal-dialog">
                         <div className="modal-content">
-                            <ReactPlayer url='https://vimeo.com/34741214' />
+                            <ReactPlayer url={video} />
                         </div>
                     </div>
                 </div>

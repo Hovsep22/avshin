@@ -12,70 +12,70 @@ const filters = [
 
 const projects = [
     {
-        image: require('./../../images/projects/portrait/pic1.jpg'),
+        image: require('./../../images/projects/project1.jpg'),
         title: 'Chair Furniture',
         address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
         filter: 'cat-2'
     },
     {
-        image: require('./../../images/projects/portrait/pic2.jpg'),
+        image: require('./../../images/projects/project2.jpg'),
         title: 'Furniture',
         address: 'North House',
         width: 'col-md-3',
         filter: 'cat-2'
     },
     {
-        image: require('./../../images/projects/portrait/pic3.jpg'),
+        image: require('./../../images/projects/project3.jpg'),
         title: 'Living room',
         address: 'Aqaba, Jordan',
         width: 'col-md-3',
         filter: 'cat-6'
     },
     {
-        image: require('./../../images/projects/portrait/pic4.jpg'),
+        image: require('./../../images/projects/project4.jpg'),
         title: 'Dream Workspace',
         address: 'Perth, Australia',
         width: 'col-md-3',
         filter: 'cat-6'
     },
     {
-        image: require('./../../images/projects/portrait/pic5.jpg'),
+        image: require('./../../images/projects/project5.jpg'),
         title: 'Decore',
         address: 'Aqaba, Jordan',
         width: 'col-md-3',
         filter: 'cat-3'
     },
     {
-        image: require('./../../images/projects/portrait/pic6.jpg'),
+        image: require('./../../images/projects/project17.jpg'),
         title: 'Modern Decoration',
         address: 'Muscat, Sultanate of Oman',
         width: 'col-md-3',
         filter: 'cat-3'
     },
     {
-        image: require('./../../images/projects/portrait/pic7.jpg'),
+        image: require('./../../images/projects/project7.jpg'),
         title: 'Bathroom',
         address: 'North House',
         width: 'col-md-3',
         filter: 'cat-1'
     },
     {
-        image: require('./../../images/projects/pic-l-5.jpg'),
+        image: require('./../../images/projects/project14.jpg'),
         title: 'Lamp decoration',
         address: 'Aqaba, Jordan',
         width: 'col-md-6',
         filter: 'cat-6'
     },
     {
-        image: require('./../../images/projects/pic-1.jpg'),
+        image: require('./../../images/projects/project12.jpg'),
         title: 'Building house',
         address: 'Ultanate of Oman',
         width: 'col-md-3',
         filter: 'cat-5'
     },
     {
-        image: require('./../../images/projects/pic-2.jpg'),
+        image: require('./../../images/projects/project10.jpg'),
         title: 'Spa residence',
         address: 'Perth, Australia',
         width: 'col-md-3',

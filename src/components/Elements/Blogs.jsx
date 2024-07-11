@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const blogs = [
     {
-        image: require('./../../images/blog/latest-blog/pic1.jpg'),
+        image: require('./../../images/projects/project20.jpg'),
         title: 'Commercial design for project',
         description: 'Which is the same as saying through shrinking from toil and pain.',
         date: '14',
@@ -11,7 +11,7 @@ const blogs = [
         year: '2022'
     },
     {
-        image: require('./../../images/blog/latest-blog/pic2.jpg'),
+        image: require('./../../images/projects/project21.jpg'),
         title: 'Our interior design prediction',
         description: 'Today we can tell you, thanks to your passion, hard work creativity.',
         date: '16',
@@ -19,7 +19,7 @@ const blogs = [
         year: '2022'
     },
     {
-        image: require('./../../images/blog/latest-blog/pic3.jpg'),
+        image: require('./../../images/projects/project23.jpg'),
         title: 'Low cost interior designing ideas',
         description: 'Every pleasure is to be welcomed every pain avoided. in certain.',
         date: '18',

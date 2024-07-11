@@ -5,11 +5,11 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const images = [
-    require('./../../images/gallery/gallery1.jpg'),
-    require('./../../images/gallery/gallery2.jpg'),
-    require('./../../images/gallery/gallery3.jpg'),
-    require('./../../images/gallery/gallery4.jpg'),
-    require('./../../images/gallery/gallery5.jpg')    
+    require('./../../images/gallery/gallery11.jpg'),
+    require('./../../images/gallery/gallery22.jpg'),
+    require('./../../images/gallery/gallery33.jpg'),
+    require('./../../images/gallery/gallery44.jpg'),
+    require('./../../images/gallery/gallery55.jpg')    
 ]
 
 var bnr1 = require('./../../images/background/bg-6.png');
@@ -67,10 +67,10 @@ class About extends React.Component {
                         {/* TITLE END */}
                         <div className="section-content">
                             <div className="row">
-                                <div className="col-md-9 col-sm-12">
+                                <div className="col-md-9 col-sm-12" >
                                     <OwlCarousel className="owl-carousel about-home owl-btn-vertical-center" {...options}>
                                         {images.map((item, index) => (
-                                            <div className="item" key={index}>
+                                            <div className="item" key={index} >
                                                 <div className="mt-img-effect zoom-slow">
                                                 <NavLink to="/about"><img src={item} alt=""/></NavLink>
                                                 </div>
