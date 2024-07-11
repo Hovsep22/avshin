@@ -136,7 +136,7 @@ class Slider extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                     textTransform: 'uppercase',
                   }}>
-                  <div>We Build Your Dream</div>
+                  <div>Մենք կառուցում ենք քո երազանքը</div>
                 </div>
                 {/* LAYER NR. 5 [ for block] */}
                 <div
@@ -190,8 +190,8 @@ class Slider extends React.Component {
                     borderWidth: 0,
                     fontFamily: '"Poppins", sans-serif',
                   }}>
-                  It is a long established fact that a reader will be distracted by the readable
-                  content.
+                  {/* It is a long established fact that a reader will be distracted by the readable
+                  content. */}
                 </div>
                 {/* LAYER NR. 6 [ for see all service botton ] */}
                 <div
@@ -218,7 +218,7 @@ class Slider extends React.Component {
                   data-paddingleft="[0,0,0,0]"
                   style={{ zIndex: 100, textTransform: 'uppercase' }}>
                   <NavLink to="/about" className="site-button-secondry btn-effect">
-                    More About
+                    {/* More About */}
                   </NavLink>
                 </div>
               </li>
@@ -322,7 +322,7 @@ class Slider extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                     textTransform: 'uppercase',
                   }}>
-                  <div>From concept to creation.</div>
+                  <div>Նախագծումից մինչեւ կառուցապատում</div>
                 </div>
                 {/* LAYER NR. 5 [ for block] */}
                 <div
@@ -376,8 +376,8 @@ class Slider extends React.Component {
                     borderWidth: 0,
                     fontFamily: '"Poppins", sans-serif',
                   }}>
-                  It is a long established fact that a reader will be distracted by the readable
-                  content.
+                  {/* It is a long established fact that a reader will be distracted by the readable
+                  content. */}
                 </div>
                 {/* LAYER NR. 6 [ for see all service botton ] */}
                 <div
@@ -404,7 +404,7 @@ class Slider extends React.Component {
                   data-paddingleft="[0,0,0,0]"
                   style={{ zIndex: 100, textTransform: 'uppercase' }}>
                   <NavLink to="/about" className="site-button-secondry btn-effect">
-                    More About
+                    {/* More About */}
                   </NavLink>
                 </div>
               </li>
@@ -508,7 +508,8 @@ class Slider extends React.Component {
                     fontFamily: '"Poppins", sans-serif',
                     textTransform: 'uppercase',
                   }}>
-                  <div>Making dreams come to life</div>
+                  <div>Հմուտ մասնագետներ որակի երաշխիք</div> 
+                  {/* /////// */}
                 </div>
                 {/* LAYER NR. 5 [ for block] */}
                 <div
@@ -562,8 +563,8 @@ class Slider extends React.Component {
                     borderWidth: 0,
                     fontFamily: '"Poppins", sans-serif',
                   }}>
-                  It is a long established fact that a reader will be distracted by the readable
-                  content.
+                  {/* It is a long established fact that a reader will be distracted by the readable
+                  content. */}
                 </div>
                 {/* LAYER NR. 6 [ for see all service botton ] */}
                 <div
@@ -590,7 +591,7 @@ class Slider extends React.Component {
                   data-paddingleft="[0,0,0,0]"
                   style={{ zIndex: 100, textTransform: 'uppercase' }}>
                   <NavLink to="/about" className="site-button-secondry btn-effect">
-                    More About
+                    {/* More About */}
                   </NavLink>
                 </div>
               </li>

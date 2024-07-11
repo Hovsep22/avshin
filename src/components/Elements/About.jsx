@@ -60,7 +60,7 @@ class About extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-center">
                                 <div className="mt-separator">
-                                    <h2 className="text-white text-uppercase sep-line-one "><span className="font-weight-300 text-primary">About</span> Company</h2>
+                                    <h2 className="text-white text-uppercase sep-line-one "><span className="font-weight-300 text-primary">ԸՆԿԵՐՈՒԹՅԱՆ</span> ՄԱՍԻՆ</h2>
                                 </div>
                             </div>
                         </div>
@@ -80,7 +80,7 @@ class About extends React.Component {
                                        
                                     </OwlCarousel>
                                 </div>
-                                <div className="col-md-3 col-sm-12">
+                                {/* <div className="col-md-3 col-sm-12">
                                     <div className="about-home-right bg-white p-a30">
                                         <h3 className="m-t0"><span className="font-weight-100">Committed</span> to superior quality and  results.</h3>
                                         <p><strong>Contrary to popular belief, lorem Ipsum is not
@@ -95,7 +95,7 @@ class About extends React.Component {
                                             <NavLink to="/about" className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

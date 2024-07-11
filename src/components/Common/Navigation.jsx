@@ -30,30 +30,30 @@ class Navigation extends React.Component {
                 <div className={(this.props.bgcolor !== '') ? `header-nav navbar-collapse collapse ${this.props.bgcolor}` : 'header-nav navbar-collapse collapse'}>
                     <ul className="nav navbar-nav">
                         <li className="active">
-                            <NavLink to={""}>Home</NavLink>
+                            <NavLink to={""}>Գլխավոր</NavLink>
                             <ul className="sub-menu">
                                 <li>
-                                    <NavLink to={"/"}>Home-1</NavLink>
+                                    <NavLink to={"/"}>Գլխավոր.</NavLink>
                                 </li>
                                 <li>
-                                <NavLink to={"/homepage2"}>Home-2</NavLink>
+                                {/* <NavLink to={"/homepage2"}>Home-2</NavLink> */}
                                 </li>
                                 <li>
-                                <NavLink to={"/homepage3"}>Home-3 boxed style</NavLink>
+                                {/* <NavLink to={"/homepage3"}>Home-3 boxed style</NavLink> */}
                                 </li>
                                 <li>
-                                <NavLink to={"/homepage4"}>Home-4</NavLink>
+                                {/* <NavLink to={"/homepage4"}>Home-4</NavLink> */}
                                 </li>
                             </ul>
                         </li>
                         <li>
-                        <NavLink to={"/about"}>About us</NavLink>
+                        <NavLink to={"/about"}>Մեր մասին</NavLink>
                         </li>
                         <li>
-                        <NavLink to={"/services"}>Services</NavLink>
+                        {/* <NavLink to={"/services"}>Services</NavLink> */}
                         </li>
                         <li>
-                        <NavLink to={""}>Pages</NavLink>
+                        {/* <NavLink to={""}>Pages</NavLink> */}
                             <ul className="sub-menu">
                                 <li>
                                 <NavLink to={""}>Blog</NavLink>
@@ -75,7 +75,7 @@ class Navigation extends React.Component {
                             </ul>
                         </li>
                         <li>
-                            <NavLink to={""}>Post detail</NavLink>
+                            {/* <NavLink to={""}>Post detail</NavLink> */}
                             <ul className="sub-menu">
                                 <li><NavLink to={"/post-image"}>Post Image</NavLink></li>
                                 <li><NavLink to={"/post-gallery"}>Post Gallery</NavLink></li>
@@ -84,7 +84,7 @@ class Navigation extends React.Component {
                             </ul>
                         </li>
                         <li>
-                            <NavLink to={""}>Projects</NavLink>
+                            {/* <NavLink to={""}>Projects</NavLink> */}
                             <ul className="sub-menu">
                                 <li><NavLink to={"/project-grid"}>Project Grid</NavLink></li>
                                 <li><NavLink to={"/project-masonary"}>Project Masonry</NavLink></li>
@@ -95,7 +95,7 @@ class Navigation extends React.Component {
                             </ul>
                         </li>
                         <li className="submenu-direction">
-                            <NavLink to={""}>Shortcodes</NavLink>
+                            {/* <NavLink to={""}>Shortcodes</NavLink> */}
                             <ul className="sub-menu">
                                 <li><NavLink to={"/accordian"}>Accordian</NavLink></li>
                                 <li><NavLink to={"/button"}>Button</NavLink></li>

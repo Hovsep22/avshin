@@ -37,25 +37,25 @@ class OurValue extends React.Component {
                             <div className="row">
                                 <div className="col-md-4 col-sm-12">
                                     {/* TITLE START */}
-                                    <div className="section-head">
+                                    {/* <div className="section-head">
                                         <div className="mt-separator-outer separator-left">
                                             <div className="mt-separator">
                                                 <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Our</span> Value</h2>
                                             </div>
                                             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.there are many 																				                                                     variations of passages of Ipsum available,</p>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     {/* TITLE END */}
-                                    <div className="author-info p-t20">
-                                        <div className="author-signature">
+                                    {/* <div className="author-info p-t20">
+                                        <div className="author-signature"> */}
                                             {/* <img src={require('./../../images/Signature+Black.png')} alt="Signature" width={150} /> */}
-                                        </div>
+                                        {/* </div>
                                         <div className="author-name">
                                             <h4 className="m-t0">Hamlet Avetisyan</h4>
                                             <p>Architect &amp; Founder</p>
                                         </div>
-                                    </div>
-                                    <div className="video-section-full bg-no-repeat bg-cover overlay-wraper" style={{ backgroundImage: 'url(' + img1 + ')' }}>
+                                    </div> */}
+                                    {/* <div className="video-section-full bg-no-repeat bg-cover overlay-wraper" style={{ backgroundImage: 'url(' + img1 + ')' }}>
                                         <div className="overlay-main bg-black opacity-07" />
                                         <div className="video-section-inner">
                                             <div className="video-section-content">
@@ -71,9 +71,9 @@ class OurValue extends React.Component {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
-                                <div className="col-md-3 col-sm-6">
+                                {/* <div className="col-md-3 col-sm-6">
                                     <div className="mt-count m-b30 text-white mt-icon-box-wraper center  bg-dark p-a20">
                                         <div className="counter font-30 font-weight-800 m-b15 text-primary"><CountUp end={450} duration={5} /></div>
                                         <h4 className="m-tb0">Active Experts</h4>
@@ -86,8 +86,8 @@ class OurValue extends React.Component {
                                         <div className="counter font-30 font-weight-800 m-b15 text-primary"><CountUp end={1500} duration={5} /></div>
                                         <h4 className="m-tb0">Project Complete</h4>
                                     </div>
-                                </div>
-                                <div className="col-md-5 col-sm-6">
+                                </div> */}
+                                {/* <div className="col-md-5 col-sm-6">
                                     <div className="p-b0">
                                         <div className="mt-box">
                                             <h3 className="m-t0"><span className="font-weight-100"> We have</span><span className="text-primary"> 10 years</span> experience in construction</h3>
@@ -123,19 +123,19 @@ class OurValue extends React.Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className="modal fade" id="myModal2" role="dialog">
+                {/* <div className="modal fade" id="myModal2" role="dialog">
                     <div className="modal-dialog">
                         <div className="modal-content">
                             <ReactPlayer url={video} />
                         </div>
                     </div>
-                </div>
+                </div> */}
             </>
         );
     }

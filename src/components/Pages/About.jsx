@@ -7,7 +7,7 @@ import Specialization4 from './../Elements/Specialization4';
 import Team3 from './../Elements/Team3';
 import AboutSummary from './../Elements/AboutSummary';
 
-var bnrimg = require('./../../images/banner/1.jpg');
+var bnrimg = require('./../../images/avshin.jpg');
 
 class About extends React.Component {
     render() {
@@ -16,10 +16,10 @@ class About extends React.Component {
 
                 <Header />
                 <div className="page-content">
-                    <Banner title="Creating quality urban lifestyles, building stronger communities." pagename="About Us" bgimage={bnrimg}/>
+                    <Banner title="ՈՐԱԿ ՍՏԵՂԾԵԼՈՎ, ԱՎԵԼԻ ՈՒԺԵՂ ՀԱՄԱՅՆՔՆԵՐԻ ԿԱՌՈՒՑՈՒՄ." pagename="Մեր մասին" bgimage={bnrimg}/>
                     <About4 />
                     <Specialization4 />
-                    <Team3 />
+                    {/* <Team3 /> */}
                     <AboutSummary />
 
                 </div>

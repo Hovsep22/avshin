@@ -5,7 +5,7 @@ class Banner extends React.Component {
     render() {
         return (
             <>
-                <div className="mt-bnr-inr overlay-wraper bg-parallax bg-top-center" data-stellar-background-ratio="0.5" style={{ backgroundImage: 'url(' + this.props.bgimage + ')' }}>
+                <div className="mt-bnr-inr overlay-wraper bg-parallax bg-top-center" data-stellar-background-ratio="0.5" style={{ backgroundImage: 'url(' + this.props.bgimage + ')', backgroundSize: 'fill' }}>
                         <div className="overlay-main bg-black opacity-07" />
                         <div className="container">
                             <div className="mt-bnr-inr-entry">
@@ -17,7 +17,7 @@ class Banner extends React.Component {
                                 {/* BREADCRUMB ROW */}
                                 <div>
                                     <ul className="mt-breadcrumb breadcrumb-style-2">
-                                        <li><NavLink to={"./"}>Home</NavLink></li>
+                                        <li><NavLink to={"./"}>Գլխավոր</NavLink></li>
                                         <li>{this.props.pagename}</li>
                                     </ul>
                                 </div>

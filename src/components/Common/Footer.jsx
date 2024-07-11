@@ -22,7 +22,7 @@ class Footer extends React.Component {
             className="container call-to-action-wrap bg-no-repeat bg-center"
             style={{ backgroundImage: 'url(' + bgimage + ')' }}>
             <div className="p-a30 bg-primary ">
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-md-8 col-sm-8">
                   <div className="call-to-action-left text-black">
                     <h4 className="text-uppercase m-b10 m-t0">Subscribe to our newsletter!</h4>
@@ -52,7 +52,7 @@ class Footer extends React.Component {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* FOOTER BLOCKES START */}
@@ -70,8 +70,8 @@ class Footer extends React.Component {
                       </NavLink>
                     </div>
                     <p className="max-w400">
-                      Today we can tell you, thanks to your passion, hard work creativity, and
-                      expertise, you delivered us the most beautiful house great looks.
+                      {/* Today we can tell you, thanks to your passion, hard work creativity, and
+                      expertise, you delivered us the most beautiful house great looks. */}
                     </p>
                     <ul className="social-icons  mt-social-links">
                       <li>
@@ -95,10 +95,10 @@ class Footer extends React.Component {
                 {/* RESENT POST */}
                 <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="widget widget_address_outer">
-                    <h4 className="widget-title">Contact Us</h4>
+                    <h4 className="widget-title">Կապ մեզ հետ</h4>
                     <ul className="widget_address">
-                      <li>Ulneci str. 31</li>
-                      <li>hvhh 00905623</li>
+                      <li>Ուլնեցի փող․ 31</li>
+                      <li>ՀՎՀՀ 00905623</li>
                       <li>avetisyanshin@mail.ru</li>
                       <li>(+374) 93-526-555</li>
                       <li>(+374) 55-907-070</li>
@@ -108,25 +108,25 @@ class Footer extends React.Component {
                 {/* USEFUL LINKS */}
                 <div className="col-lg-3 col-md-6 col-sm-6 footer-col-3">
                   <div className="widget widget_services inline-links">
-                    <h4 className="widget-title">Useful links</h4>
+                    <h4 className="widget-title">Օգտակար հղումներ</h4>
                     <ul>
                       <li>
-                        <NavLink to={'/about'}>About</NavLink>
+                        <NavLink to={'/about'}>Մեր մասին</NavLink>
                       </li>
                       <li>
-                        <NavLink to={'/project-grid'}>Projects</NavLink>
+                        {/* <NavLink to={'/project-grid'}>Projects</NavLink> */}
                       </li>
                       <li>
-                        <NavLink to={'/blog-grid'}>Blog</NavLink>
+                        {/* <NavLink to={'/blog-grid'}>Blog</NavLink> */}
                       </li>
                       <li>
-                        <NavLink to={'/contactus'}>Contact Us</NavLink>
+                        {/* <NavLink to={'/contactus'}>Contact Us</NavLink> */}
                       </li>
                     </ul>
                   </div>
                 </div>
                 {/* TAGS */}
-                <div className="col-lg-3 col-md-6 col-sm-6">
+                {/* <div className="col-lg-3 col-md-6 col-sm-6">
                   <div className="widget recent-posts-entry-date">
                     <h4 className="widget-title">Resent Post</h4>
                     <div className="widget-post-bx">
@@ -186,7 +186,7 @@ class Footer extends React.Component {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 {/* NEWSLETTER */}
               </div>
             </div>

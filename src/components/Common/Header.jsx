@@ -63,18 +63,18 @@ class Header extends React.Component {
                     </li>
                     <li>
                       <i className="fa fa-clock-o" />
-                      Ulneci str. 31
+                      Ուլնեցի փող․ 31
                     </li>
                     <li>
                       <i className="fa fa-clock-o" />
-                      hvhh 00905623
+                      ՀՎՀՀ 00905623
                     </li>
                   </ul>
                 </div>
                 <div className="mt-topbar-right clearfix">
                   <div className="appint-btn">
                     <NavLink to={'#'} className="site-button">
-                      Make an Appointment
+                      {/* Make an Appointment */}
                     </NavLink>
                   </div>
                 </div>
@@ -138,7 +138,7 @@ class Header extends React.Component {
                           </div>
                           <div className="icon-content">
                             <h5 className="m-t0 font-weight-500">Phone number</h5>
-                            <p>(075) 123-7654</p>
+                            <p>(374) 55-907-070</p>
                           </div>
                         </div>
                         <div className="mt-icon-box-wraper center p-b30">
@@ -147,7 +147,7 @@ class Header extends React.Component {
                           </div>
                           <div className="icon-content">
                             <h5 className="m-t0 font-weight-500">Email address</h5>
-                            <p>7xthemehelp@gmail.com</p>
+                            <p>avetisyanshin@mail.ru</p>
                           </div>
                         </div>
                         <div className="mt-icon-box-wraper center p-b30">
@@ -156,7 +156,7 @@ class Header extends React.Component {
                           </div>
                           <div className="icon-content">
                             <h5 className="m-t0 font-weight-500">Address info</h5>
-                            <p>201 Liverpool Street, Suite 721, London</p>
+                            <p>Ulneci str. 31</p>
                           </div>
                         </div>
                       </div>
@@ -195,7 +195,7 @@ class Header extends React.Component {
                         </ul>
                       </div>
                       <div className="text-center">
-                        <h4 className="font-weight-600">© 2022 7xtheme</h4>
+                        <h4 className="font-weight-600"></h4>
                       </div>
                     </div>
                   </div>

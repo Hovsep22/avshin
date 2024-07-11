@@ -33,7 +33,7 @@ class AboutSummary extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-left">
                                 <div className="mt-separator text-white">
-                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">About</span> Summary</h2>
+                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">ԱՄՓՈՓՈՒՄԻ</span> ՄԱՍԻՆ</h2>
                                 </div>
                             </div>
                         </div>
@@ -43,15 +43,15 @@ class AboutSummary extends React.Component {
                                 <div className="col-md-4 col-sm-6">
                                     <div className="our-story-pic-block">
                                         <div className="mt-media our-story-pic">
-                                            <img src={require('./../../images/gallery/portrait/pic4.jpg')} alt=""/>
+                                            <img src={require('./../../images/gallery/gallery33.jpg')} alt=""/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-8 col-sm-6">
                                     <div className="mt-box our-story-detail bg-moving bg-cover" style={{ backgroundImage: 'url(' + img2 + ')' }}>
-                                        <h4 className="text-uppercase m-b20">2011-12</h4>
-                                        <h4 className="m-b20">Eisenhower Memoria</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. </p>
+                                        <h4 className="text-uppercase m-b20">2022</h4>
+                                        <h4 className="m-b20">Արենի համայնք</h4>
+                                        <p>Ֆուտբոլի դաշտի կառուցում </p>
                                     </div>
                                 </div>
                             </div>
@@ -59,15 +59,15 @@ class AboutSummary extends React.Component {
                                 <div className="col-md-4 col-sm-6">
                                     <div className="our-story-pic-block">
                                         <div className="mt-media our-story-pic">
-                                            <img src={require('./../../images/gallery/portrait/pic7.jpg')} alt=""/>
+                                            <img src={require('./../../images/gallery/gallery22.jpg')} alt=""/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-8 col-sm-6">
                                     <div className="mt-box our-story-detail bg-moving bg-cover"  style={{ backgroundImage: 'url(' + img2 + ')' }}>
-                                        <h4 className="text-uppercase m-b20">2013-14</h4>
-                                        <h4 className="m-b20">Columbia Sport Center</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. </p>
+                                        <h4 className="text-uppercase m-b20">2021</h4>
+                                        <h4 className="m-b20">Բերդ համայնք</h4>
+                                        <p>Փողոցային լուսավորություն համակարգի կապիսալ կառուցում</p>
                                     </div>
                                 </div>
                             </div>
@@ -75,15 +75,15 @@ class AboutSummary extends React.Component {
                                 <div className="col-md-4 col-sm-6">
                                     <div className="our-story-pic-block">
                                         <div className="mt-media our-story-pic">
-                                            <img src={require('./../../images/gallery/portrait/pic6.jpg')} alt=""/>
+                                            <img src={require('./../../images/projects/project24.jpg')} alt=""/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-8 col-sm-6">
                                     <div className="mt-box our-story-detail bg-moving bg-cover"  style={{ backgroundImage: 'url(' + img2 + ')' }}>
-                                        <h4 className="text-uppercase m-b20">2015-16</h4>
-                                        <h4 className="m-b20">Park Boathouse</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. </p>
+                                        <h4 className="text-uppercase m-b20">2023</h4>
+                                        <h4 className="m-b20">Վայոց ձորի մարզ</h4>
+                                        <p>Ելփին բնակավայրի մանկապարտեզի կառուցում</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,15 +91,15 @@ class AboutSummary extends React.Component {
                                 <div className="col-md-4 col-sm-6">
                                     <div className="our-story-pic-block">
                                         <div className="mt-media our-story-pic">
-                                            <img src={require('./../../images/gallery/portrait/pic5.jpg')} alt=""/>
+                                            <img src={require('./../../images/projects/project25.jpg')} alt=""/>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-md-8 col-sm-6">
                                     <div className="mt-box our-story-detail bg-moving bg-cover"  style={{ backgroundImage: 'url(' + img2 + ')' }}>
-                                        <h4 className="text-uppercase m-b20">2017-18</h4>
-                                        <h4 className="m-b20">Museum Expansion</h4>
-                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. remaining essentially unchanged. </p>
+                                        <h4 className="text-uppercase m-b20">2020</h4>
+                                        <h4 className="m-b20">Վայոց ձորի մարզ</h4>
+                                        <p>2 x 130 մխ․ ՕԿՋ-ների կառուցում  </p>
                                     </div>
                                 </div>
                             </div>

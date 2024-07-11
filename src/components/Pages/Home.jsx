@@ -22,12 +22,12 @@ class Home extends React.Component {
                     <Specialization />
                     <About />
                     <OurValue />
-                    <OurMission />
+                    {/* <OurMission /> */}
                     <OurServices />
-                    <Callus />
+                    {/* <Callus /> */}
                     <OurProject />
                     <Blogs />
-                    <Testimonials />
+                    {/* <Testimonials /> */}
                 </div>
                 <Footer />
             </>

@@ -4,27 +4,27 @@ import { NavLink } from 'react-router-dom';
 const services = [
     {
         count: 1,
-        title: `Building Construction`,
+        title: `Շենքերի Շինարարություն`,
         icon: require('./../../images/icon/crane-1.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: '',
     },
     {
         count: 2,
-        title: 'Building Renovation',
+        title: 'Ջրամատակարարում Ջրահեռացում',
         icon: require('./../../images/icon/renovation.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: '',
     },
     {
         count: 3,
-        title: 'Building Maintenance',
+        title: 'Էլեկտրամատակարարում լուսավորություն',
         icon: require('./../../images/icon/toolbox.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: '',
     },
     {
         count: 4,
-        title: 'Architecture Design',
+        title: 'Ճարտարապետական ​​դիզայն',
         icon: require('./../../images/icon/compass.png'),
-        description: 'lorem Ipsum available, but the majority have suffered alterati on in some form, by ious by accident.',
+        description: '',
     }
 ]
 
@@ -40,7 +40,7 @@ class Specialization4 extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-left">
                                 <div className="mt-separator">
-                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Our</span> Speciallization</h2>
+                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary"> ՄԵՐ</span> ՄԱՍՆԱԳԻՏԱՑՈՒՄԸ</h2>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,9 @@ class Specialization4 extends React.Component {
                                                     <div className="icon-content">
                                                         <h4 className="mt-tilte m-b25">{item.title}</h4>
                                                         <p>{item.description}</p>
-                                                        <NavLink to={"/services"} className="site-button-link" data-hover="Read More">Read More <i className="fa fa-angle-right arrow-animation" /></NavLink>
+                                                        <NavLink to={"/services"} className="site-button-link" data-hover="Read More">
+                                                        {/* Read More <i className="fa fa-angle-right arrow-animation" /> */}
+                                                        </NavLink>
                                                     </div>
                                                 </div>
                                             </div>

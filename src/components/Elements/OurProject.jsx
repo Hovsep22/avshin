@@ -2,82 +2,82 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const filters = [
-    { label: "Commercial", filter: ".cat-1" },
-    { label: "Education", filter: ".cat-4" },
-    { label: "Hospital", filter: ".cat-2" },
-    { label: "Residential", filter: ".cat-3" },
-    { label: "Office", filter: ".cat-5" },
-    { label: "Reconstruction", filter: ".cat-6" }
+    // { label: "Commercial", filter: ".cat-1" },
+    // { label: "Education", filter: ".cat-4" },
+    // { label: "Hospital", filter: ".cat-2" },
+    // { label: "Residential", filter: ".cat-3" },
+    // { label: "Office", filter: ".cat-5" },
+    // { label: "Reconstruction", filter: ".cat-6" }
 ];
 
 const projects = [
     {
         image: require('./../../images/projects/project1.jpg'),
-        title: 'Chair Furniture',
-        address: 'Muscat, Sultanate of Oman',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-2'
     },
     {
         image: require('./../../images/projects/project2.jpg'),
-        title: 'Furniture',
-        address: 'North House',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-2'
     },
     {
         image: require('./../../images/projects/project3.jpg'),
-        title: 'Living room',
-        address: 'Aqaba, Jordan',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-6'
     },
     {
         image: require('./../../images/projects/project4.jpg'),
-        title: 'Dream Workspace',
-        address: 'Perth, Australia',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-6'
     },
     {
         image: require('./../../images/projects/project5.jpg'),
-        title: 'Decore',
-        address: 'Aqaba, Jordan',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-3'
     },
     {
         image: require('./../../images/projects/project17.jpg'),
-        title: 'Modern Decoration',
-        address: 'Muscat, Sultanate of Oman',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-3'
     },
     {
         image: require('./../../images/projects/project7.jpg'),
-        title: 'Bathroom',
-        address: 'North House',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-1'
     },
     {
         image: require('./../../images/projects/project14.jpg'),
-        title: 'Lamp decoration',
-        address: 'Aqaba, Jordan',
+        title: '',
+        address: '',
         width: 'col-md-6',
         filter: 'cat-6'
     },
     {
         image: require('./../../images/projects/project12.jpg'),
-        title: 'Building house',
-        address: 'Ultanate of Oman',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-5'
     },
     {
         image: require('./../../images/projects/project10.jpg'),
-        title: 'Spa residence',
-        address: 'Perth, Australia',
+        title: '',
+        address: '',
         width: 'col-md-3',
         filter: 'cat-4'
     }
@@ -115,7 +115,7 @@ class OurProject extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-left">
                                 <div className="mt-separator">
-                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Our</span> Project</h2>
+                                    <h2 className="text-uppercase sep-line-one "><span className="font-weight-300 text-primary">Կատարված</span> Աշխատանքներ</h2>
                                 </div>
                             </div>
                         </div>
@@ -127,7 +127,7 @@ class OurProject extends React.Component {
                                     <div className="bg-gray p-a30">
                                         <div className="filter-wrap">
                                             <ul className="filter-navigation masonry-filter text-uppercase">
-                                                <li className="active"><NavLink to={"#"} data-filter="*" data-hover="All">All</NavLink></li>
+                                                <li className="active"><NavLink to={"#"} data-filter="*" data-hover="All">Ամբողջ</NavLink></li>
                                                 {filters.map((item, index) => (
                                                     <li key={index}><NavLink to={"#"} data-filter={item.filter} data-hover={item.label}>{item.label}</NavLink></li>
                                                 ))}
@@ -154,7 +154,7 @@ class OurProject extends React.Component {
                         </div>
                     </div>
                     <div className="hilite-title text-left p-l50 text-uppercase text-pop-up-top">
-                        <strong>Projects</strong>
+                        {/* <strong>Projects</strong> */}
                     </div>
                 </div>
             </>

@@ -5,11 +5,11 @@ import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 const images = [
-    require('./../../images/gallery/portrait/pic4.jpg'),
-    require('./../../images/gallery/portrait/pic5.jpg'),
-    require('./../../images/gallery/portrait/pic6.jpg'),
-    require('./../../images/gallery/portrait/pic7.jpg'),
-    require('./../../images/gallery/portrait/pic1.jpg'),
+    require('./../../images/projects/project17.jpg'),
+    require('./../../images/projects/project18.jpg'),
+    require('./../../images/projects/project19.jpg'),
+    require('./../../images/projects/project6.jpg'),
+    require('./../../images/projects/project8.jpg'),
 ]
 
 var bnr1 = require('./../../images/background/line.png');
@@ -72,20 +72,20 @@ class About4 extends React.Component {
                                 <div className="col-lg-7 col-md-7">
                                     <div className="m-about-containt text-black p-t80">
                                         <div className="m-about-years bg-moving" style={{backgroundImage:"url(" + bnr1 + ")"}}>
-                                            <span className="text-primary large-title">25</span>
-                                            <span className="large-title-info">Years of Experience</span>
+                                            <span className="text-primary large-title">10</span>
+                                            <span className="large-title-info">տարիների փորձ</span>
                                         </div>
-                                        <h3 className="font-weight-600">Improving quality of life with an integrated unified approach.</h3>
-                                        <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use texts.  Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p>
+                                        <h3 className="font-weight-600">Կյանքի որակի բարելավում ինտեգրված միասնական մոտեցմամբ:</h3>
+                                        {/* <p>Dummy text is also used to demonstrate the appearance of different typefaces and layouts, and in general the content of dummy text is nonsensical. Due to its widespread use texts.  Ut wisi enim ad minim veniam, quis nostrud exerci tation.</p> */}
                                         <div className="author-info p-t20">
                                             <div className="author-signature">
-                                                <img src={require('./../../images/Signature+Black.png')} alt="Signature" width={150} />
+                                                {/* <img src={require('./../../images/Signature+Black.png')} alt="Signature" width={150} /> */}
                                             </div>
-                                            <div className="author-name">
+                                            {/* <div className="author-name">
                                                 <h4 className="m-t0">David Houkr</h4>
                                                 <p>Architect &amp; Founder</p>
                                             </div>
-                                            <NavLink to="/about" className="site-button btn-effect m-b15"><span>Get in touch</span></NavLink>
+                                            <NavLink to="/about" className="site-button btn-effect m-b15"><span>Get in touch</span></NavLink> */}
                                         </div>
                                     </div>
                                 </div>

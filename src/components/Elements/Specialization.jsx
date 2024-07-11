@@ -44,9 +44,10 @@ class Specialization extends React.Component {
                                 </div>
                                 <div className="col-lg-3 col-md-12 col-sm-6 m-b30">
                                     <div className="mt-box our-speciallization-content">
-                                        <h3 className="m-t0"><span className="font-weight-100">Building</span> <br />It better in concrete.</h3>
-                                        <p>When it comes to your house, don’t mess with the rest, trust the best. Making your vision come true, that is what we do.</p>
-                                        <NavLink to="/project-detail"  className="site-button btn-effect">View All</NavLink>
+                                        <h3 className="m-t0"><span className="font-weight-100">Շինությունը
+                                        </span> <br />Բետոնի մեջ ավելի լավ է</h3>
+                                        {/* <p>When it comes to your house, don’t mess with the rest, trust the best. Making your vision come true, that is what we do.</p> */}
+                                        <NavLink to="/project-detail"  className="site-button btn-effect"></NavLink>
                                     </div>
                                 </div>
                             </div>
